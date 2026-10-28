@@ -1,0 +1,41 @@
+{
+  "name": "grails-link-converter",
+  "version": "1.0.0",
+  "description": "Convert Weidian, Taobao and 1688 links into shopping agent links (KakoBuy, ZentBuy, LitBuy, CNFans, Mulebuy and more). Same logic as https://grails.fit/convert",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "bin": {
+    "grails-link-converter": "bin/cli.js"
+  },
+  "files": [
+    "index.js",
+    "bin/"
+  ],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "weidian",
+    "taobao",
+    "1688",
+    "kakobuy",
+    "cnfans",
+    "mulebuy",
+    "shopping-agent",
+    "link-converter",
+    "fashionreps"
+  ],
+  "homepage": "https://grails.fit/convert",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SaxxSaxx/grails-link-converter.git"
+  },
+  "author": "Saxx",
+  "license": "MIT"
+}
